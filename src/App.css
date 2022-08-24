@@ -1,0 +1,210 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.About {
+  background-color: grey;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.Project {
+  width: 600px;
+  border-right-width: 30px;
+}
+
+.projects {
+  position: relative;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.flex-container {
+  display: flex;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  color: black;
+  font-size: 36px;
+  font-family: NotoSerif;
+}
+
+@font-face {
+  font-family: NotoSerif;
+  src: url(NotoSerif-Regular.ttf);
+}
+
+.CustomNavBar {
+  font-family: NotoSerif;
+}
+
+.headshot {
+  width: 40%;
+  display: block;
+  margin-right: auto;
+  margin-left: 60px;
+  display: inline-block;
+  margin-top: -300px;
+}
+
+.backgroundtext {
+  width: 40%;
+  display: block;
+  padding-top: 50px;
+  font-family: NotoSerif;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.Header {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.list {
+  display: table;
+  font-size: 20px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.homeheader {
+  margin-left: 12.5%;
+  font-family: NotoSerif;
+}
+
+.topimages {
+  width: 41%;
+  padding-top: 30px;
+  padding-left: 1%;
+  padding-right: 1%;
+  object-fit: fill;
+}
+
+.bottomimages {
+  width: 80%;
+  padding-top: 30px;
+}
+
+.imagecontainer {
+  text-align: center;
+}
+
+.projectheader {
+  margin-top: 30px;
+  font-family: NotoSerif;
+  margin-left: 10%;
+}
+
+.projectdescription {
+  width: 80%;
+  font-family: NotoSerif;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+.maintop1 {
+  object-fit: contain;
+  height: 400px;
+}
+.maintop2 {
+  object-fit: contain;
+  height: 400px;
+}
+
+.mainbottom {
+  height: 400px;
+  object-fit: fill;
+}
+
+.hs1 {
+  object-fit: fill;
+  height: 860px;
+}
+
+.mtb {
+  object-fit: fill;
+  height: 360px;
+}
+
+.vsv {
+  object-fit: fill;
+  height: 560px;
+}
+
+.rs {
+  object-fit: contain;
+  height: 460px;
+}
