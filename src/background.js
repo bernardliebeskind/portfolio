@@ -12,7 +12,7 @@ const background = () =>{
               About Me
             </h1>
               <p>
-              I am a student in the class of 2025 at the Columbia University School of Engineering and Applied Science studying 
+              I am a student in the class of 2025 at the Columbia University School of Engineering and Applied Sciences studying 
               Mechanical Engineering with a minor in Applied Mathematics. My current 
               research focuses on finite element modeling of the female reproductive system's 
               biomechanical behaviors to predict preterm births. I am currently working in the&nbsp;
